@@ -40,7 +40,7 @@ class IntGuardProcessor(
         val bounds: Bounds
     )
 
-//    val packageName = "io.amichne.checKer.ksp"
+    //    val packageName = "io.amichne.checKer.ksp"
     val packageName = "io.amichne.app"
 
     private fun KSType.toRef(resolver: Resolver) = resolver.createKSTypeReferenceFromKSType(this)
